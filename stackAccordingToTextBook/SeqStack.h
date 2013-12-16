@@ -10,8 +10,8 @@
 #define stackAccordingToTextBook_SeqStack_h
 
 
-
 #endif
+
 #define MAX_STACK_SIZE 100
 
 typedef int dataType;
@@ -21,12 +21,12 @@ typedef struct{
     int top;
 } SeqStack;
 
-void stackInitiate(SeqStack *s)
+void seqStackInitiate(SeqStack *s)
 {
     s->top = 0;
 }
 
-int isStackEmpty(SeqStack s)
+int isSeqStackNotEmpty(SeqStack s)
 {
     if (s.top <= 0)
     {
@@ -38,7 +38,7 @@ int isStackEmpty(SeqStack s)
     }
 }
 
-int stackPush(SeqStack *s, dataType x)
+int seqStackPush(SeqStack *s, dataType x)
 {
     if (s->top >= MAX_STACK_SIZE)
     {
@@ -53,7 +53,7 @@ int stackPush(SeqStack *s, dataType x)
     }
 }
 
-int stackPop(SeqStack *s, dataType *d)
+int seqStackPop(SeqStack *s, dataType *d)
 {
     if (s->top <= 0)
     {
@@ -68,7 +68,7 @@ int stackPop(SeqStack *s, dataType *d)
     }
 }
 
-int stackTop(SeqStack s, dataType *d)
+int seqStackTop(SeqStack s, dataType *d)
 {
     if (s.top <= 0)
     {

@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF219273185C1F3100B67765 /* LineStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineStack.h; sourceTree = "<group>"; };
 		DFFBE3DE185B05A400F453FC /* stackAccordingToTextBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = stackAccordingToTextBook; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFBE3E1185B05A400F453FC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DFFBE3E3185B05A400F453FC /* stackAccordingToTextBook.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = stackAccordingToTextBook.1; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 				DFFBE3E1185B05A400F453FC /* main.c */,
 				DFFBE3E3185B05A400F453FC /* stackAccordingToTextBook.1 */,
 				DFFBE3EA185B08FE00F453FC /* SeqStack.h */,
+				DF219273185C1F3100B67765 /* LineStack.h */,
 			);
 			path = stackAccordingToTextBook;
 			sourceTree = "<group>";
@@ -227,6 +229,7 @@
 				DFFBE3E9185B05A400F453FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
